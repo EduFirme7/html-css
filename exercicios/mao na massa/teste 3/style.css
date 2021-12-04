@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{
+    background-image: radial-gradient(circle, #cf3f29, #128204, #9219E7);
+}
+h1 {
+    text-align: center
+}

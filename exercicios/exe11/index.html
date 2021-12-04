@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Google-Noto-Emoji-Smileys-10091-nerd-face.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<bodyn>
+    <picture>
+        <source media="(max-width: 750px) " srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <!--Formatos que podem ser compativeis com o navegador: (MP3 - mpeg), WAV, (OGG - open source) -->
+    <p>Vamos aprender a reproduzir áudios em HTMLL5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/800 Lives - Everet Almond.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h2>Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DjOSM72cYac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+   
+</html>

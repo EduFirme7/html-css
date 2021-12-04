@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Site</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        @font-face {
+          font-family: 'Panic';
+          src: url('PanicStricken.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        :root{
+            --cor0:#bf74ce;
+            --cor1:#F2F2F2;
+            --cor2:#d6bfbfc9;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: rgba(146, 121, 115, 0.514);
+            padding: 35px;
+            margin: 10px 10px 10px 10px;
+        }
+        
+        header {
+          font-family: Panic;
+          background-color: rgba(59, 94, 94, 0.705);
+          min-height: 150px;
+          padding-top: 50px; 
+          margin-left: 29px;
+          margin-right: 29px;
+        }
+
+        h1{
+          text-align: center;
+          padding-top: 20px;
+          
+        }
+
+        main {            
+            margin: 10px 29px 10px 29px;
+            height: auto;                      
+            background-color: var(--cor1);        
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        article > h2 {
+          font-size: 2.2em;
+          font-family: 'Pacifico', cursive;
+          text-align: center;
+          background-color: #d6bfbfc9;
+          padding: 10px;
+          margin: 4px 29px 0px 29px;
+        }
+
+        article >p {
+          margin: 15px 23px 5px 5px;
+        }
+
+        aside {
+          background-color: #bf74ce;
+          width: 200px;
+          height: 500px;
+        }
+
+        nav {
+            background-color: var(--cor0);
+            padding: 10px;
+            margin: 4px 29px 0px 29px;
+            text-align: right;
+
+        }
+        form {
+            text-align: right;
+        }
+
+        nav a {
+          padding: 10px;
+          margin: 50px;
+            
+        }
+
+        footer {
+          padding: 30px;
+          background-color: var(--cor1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+      </header>
+  
+      <nav>
+            <a href="#">Home</a>
+            <a href="#">Our team</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+    
+         <!-- Um formulário de pesquisa é uma outra maneira não linear comum de navegar por um site. -->
+  
+         <form>
+           <input type="search" name="q" placeholder="Search query">
+           <input type="submit" value="Go!">
+         </form>
+       </nav>
+  
+      <!-- Esse é o conteúdo principal da nossa página -->
+      <main>
+  
+        <!-- Contém um artigo -->
+        <article>
+          <h2>Article heading</h2>
+  
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+  
+          <h3>Subsection</h3>
+  
+          <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+  
+          <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+  
+          <h3>Another subsection</h3>
+  
+          <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+  
+          <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        </article>
+  
+        <!-- O contéudo do elemento aside pode ser aninhado dentro do conteúdo do elemento main -->
+        <aside>
+          <h2>Related</h2>
+  
+          <ul>
+            <li><a href="#">Oh I do like to be beside the seaside</a></li>
+            <li><a href="#">Oh I do like to be beside the sea</a></li>
+            <li><a href="#">Although in the North of England</a></li>
+            <li><a href="#">It never stops raining</a></li>
+            <li><a href="#">Oh well...</a></li>
+          </ul>
+        </aside>
+  
+      </main>
+  
+      <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website -->
+  
+      <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      </footer>
+  
+</body>
+</html>
