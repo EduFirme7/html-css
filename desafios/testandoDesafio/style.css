@@ -145,18 +145,18 @@ img {
     width: 100%;
 }
 
-#bolav {
+#ballred {
     height: 100px;
     width: 100px;
     margin: 30px;
     background-color: rgb(201, 19, 19);
     border-radius: 50%;
 }
-#bolav:hover{
+#ballred:hover{
     background-color: #0b3f0f;
 }
 
-#bolavd{
+#ballgreen{
     display: inline-block;
     height: 100px;
     width: 100px;
@@ -165,7 +165,7 @@ img {
     border-radius: 50%;
     padding-bottom: -100px;
 }
-#bolavd:hover{
+#ballgreen:hover{
     background-color: #dbc970;
 }
 
