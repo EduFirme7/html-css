@@ -1,1 +1,45 @@
 @charset "UTF-8";    
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+header > h1{
+    font-variant: small-caps;   
+    padding-top: 50px;
+}
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section.normal{
+    
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
