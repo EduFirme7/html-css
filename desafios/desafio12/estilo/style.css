@@ -23,21 +23,39 @@ header > p{
     padding-bottom: 50px;
 }
 
-a{
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: aliceblue;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 400px;
+}
+ 
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
-a:hover{
+
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
-section.normal{
-    
-}
-
-
-footer{
+footer {
     background-color: black;
     text-align: center;
     padding: 10px;
