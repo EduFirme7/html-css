@@ -5,6 +5,18 @@
     margin: 0px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+
+:root{
+    --font-padrao:  Verdana, Geneva, Tahoma, sans-serif;
+    --font-titulos: 'MuseoModerno', cursive;
+    --font-paragrafos: 'Modern Antiqua', cursive;
+}
+
 html, body{
     min-height: 100vh;
     background-color: darkgray;
@@ -14,20 +26,25 @@ header{
    background-color: black;
    color: white;
    text-align: center;
+   
 }
 header > h1{
+    font-family: var(--font-titulos);
     font-variant: small-caps;   
     padding-top: 50px;
+    font-size: 8vw;
 }
 header > p{
     padding-bottom: 50px;
 }
 
 section {
+    font-family: var(--font-paragrafos);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -36,17 +53,18 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(51, 50, 50);
     color: white;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.212);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    padding: 10px;
 }
  
 header a, footer a {
-    color: white;
+    color: rgb(221, 73, 73);
     text-decoration: none;
     font-weight: bolder;
 }
