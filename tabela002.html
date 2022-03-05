@@ -22,18 +22,21 @@
         }
 
         thead{
-            background-color: gray;
+            background-color: rgb(56, 54, 54);
             color: rgb(139, 214, 233);
         }
         td.numTotal{
             text-align: right;
         }
-        h1{
-            text-align: center;
+        caption{
+            padding: 10px;
+            background-color: lightgray;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
+    <h1>Uso de tabelas grandes</h1>
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
@@ -45,6 +48,7 @@
                 tr, td, th        
     -->
     <table>
+        <caption>Lista de unidades federativas do Brasil por população</caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -52,7 +56,6 @@
             </tr>
         </thead>
         <tbody>
-            <h1>Lista de unidades federativas do Brasil por população</h1>
             <tr>
                 <td>São Paulo</td>
                 <td class="number">46 649 132</td>
