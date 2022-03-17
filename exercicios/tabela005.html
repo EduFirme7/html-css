@@ -18,7 +18,7 @@
             padding: 8px;
         }
 
-        .cnome{
+        /*.cnome{
             background-color: yellowgreen;
         }
         .cprof{
@@ -27,14 +27,20 @@
         .csexo{
             background-color: rgb(110, 177, 155);
         }
-
-        /* Outro exemplo: - table tr > :nth-child(2), table tr > :nth-child(3) {
-            background-color: aquamarine;
-        }
-        table tr > :nth-child(1), table tr > :nth-child(4){
-            background-color: rgb(126, 89, 161);
-        }
         */
+
+        /* Outro exemplo com a pseudo-class :nth-child():*/
+
+        table tr > :nth-child(2n-1){
+            background-color:  yellowgreen;
+        }
+        table tr > :nth-child(2n), table tr > :nth-child(3n){
+            background-color: rgb(114, 145, 145);
+        }
+        table tr > :nth-child(4n){
+            background-color: rgb(110, 177, 155)
+        }
+        
     </style>
 </head>
 <body>
